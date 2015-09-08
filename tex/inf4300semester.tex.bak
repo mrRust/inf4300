@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\pagestyle{headings}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+
+\makeatletter
+\def\verbatim@font{\linespread{1}\normalfont\ttfamily}
+
+\usepackage{xcolor}
+\lstset{%
+  language=[LaTeX]TeX,
+  backgroundcolor=\color{gray!25},
+  basicstyle=\ttfamily,
+  breaklines=true,
+  columns=fullflexible
+}
+
+
+
+
+\begin{document}
+\lstset{language=Java} 
+\title{INF3470 - Digital signalbehandling \\ Høst 2015 - Semester}
+\author{Hans Rusten}
+\date{\today}
+\maketitle
+
+
+\section{Intro}
+Metoder for analyse av digitale bilder. Segmentering og beskrivelse av objekter i bilder. Gjenkjenning av mønstre og objekter. Styrt og ikke-styrt klassifikasjon.
+
+Studentene skal få et grunnleggende kjennskap til begreper, metoder og anvendelsesområder for bildeanalyse, mønstergjenkjenning og klassifikasjon.
+
+
+
+\begin{verbatim}
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+
+}
+\end{verbatim}
+
+\begin{lstlisting}[breaklines = true]
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+
+}
+\end{lstlisting}
+
+
+\end{document}
