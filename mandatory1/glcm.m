@@ -1,4 +1,4 @@
-function p = glcm(img, dy, dx, G)
+function p = glcm2(img, dy, dx, G)
     [M, N, z] = size(img);
     img1 = double(img(:,:,1));
     goal = log2(G);    
